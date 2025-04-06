@@ -1,0 +1,243 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #222; /* Darker text for better contrast */
+    background-color: #f0faff; /* Very light, almost white blue */
+}
+
+header {
+    background-color: #64b5f6; /* Bright blue */
+    padding: 25px;
+    text-align: center;
+    border-bottom: 4px solid #1e88e5; /* Stronger blue border */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #e3f2fd; /* Light blue section background */
+    border: 2px solid #bbdefb; /* Light blue border */
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 18px;
+    color: #0d47a1; /* Dark, vibrant blue */
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 25px;
+    color: #1976d2; /* Medium vibrant blue */
+    border-bottom: 3px solid #90caf9; /* Lighter blue border */
+    padding-bottom: 8px;
+}
+
+h3 {
+    font-size: 1.6em;
+    margin-bottom: 15px;
+    color: #2962ff; /* Bright, electric blue */
+}
+
+h4 {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    color: #448aff; /* Even brighter blue */
+}
+
+p {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+a {
+    color: #ff6d00; /* Bright orange link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #e65100; /* Darker orange on hover */
+}
+
+ul, ol {
+    margin-bottom: 15px;
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav {
+    background-color: #a7ffeb; /* Bright teal */
+    padding: 15px;
+    text-align: center;
+    border-top: 2px solid #64ffda; /* Lighter teal top border */
+    border-bottom: 2px solid #64ffda; /* Lighter teal bottom border */
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+nav a {
+    margin: 0 20px;
+    color: #004d40; /* Dark teal navigation link color */
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    color: #00897b; /* Brighter teal on hover */
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+    border: 2px solid #7cb342; /* Bright green table border */
+    border-radius: 8px;
+    overflow: hidden; /* To contain rounded corners for header */
+}
+
+th, td {
+    border: 1px solid #c5e1a5; /* Light green cell borders */
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #9ccc65; /* Bright light green header background */
+    color: #1b5e20; /* Dark green header text */
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #dcedc8; /* Very light green for even rows */
+}
+
+/* Forms */
+form {
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: #fffde7; /* Bright light yellow form background */
+    border: 2px solid #fff9c4; /* Light yellow form border */
+    border-radius: 10px;
+}
+
+form table {
+    width: auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #f9a825; /* Bright orange-yellow label color */
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="date"],
+form select {
+    width: calc(100% - 20px);
+    max-width: 350px;
+    padding: 12px;
+    border: 2px solid #ffe082; /* Light orange-yellow input border */
+    border-radius: 6px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+form input[type="radio"] {
+    margin-right: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #ffc107; /* Bright yellow submit button */
+    color: #212121; /* Dark gray button text */
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #ffca28; /* Slightly darker yellow on hover */
+}
+
+/* Comment Box */
+.comment-box {
+    width: 85%;
+    max-width: 700px;
+    border: 2px solid #ffb74d; /* Bright orange comment box border */
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+    background-color: #ffe0b2; /* Light orange comment box background */
+}
+
+.comment-box textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    border: 2px solid #ffcc80; /* Light orange textarea border */
+    border-radius: 6px;
+    padding: 12px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-size: 1em;
+}
+
+.comment-box button {
+    background-color: #f57c00; /* Bright dark orange button */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.comment-box button:hover {
+    background-color: #e65100; /* Darker orange on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #b3e5fc; /* Bright light blue footer */
+    padding: 20px;
+    text-align: center;
+    font-size: 1em;
+    color: #1e88e5; /* Bright blue footer text */
+    border-top: 3px solid #4fc3f7; /* Brighter blue top border */
+}
+
+footer a {
+    color: #ff6d00; /* Bright orange footer link color */
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #e65100; /* Darker orange on hover */
+}
